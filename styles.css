@@ -1,5 +1,78 @@
-body {
+*{
     margin: 0;
-    background: white;
-    text-align: center;
+    padding: 0;
 }
+.container{
+    background-color: #fdfbf7;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.container1{
+    background-color: #fdfbf7;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 400px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.bt{
+    width: 280px;
+    margin-top: 15px;
+}
+.vk{
+    width: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    font-style: Times New Roman;
+    font-size: 20px;
+    line-height: 1.5;
+}
+p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+   }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
